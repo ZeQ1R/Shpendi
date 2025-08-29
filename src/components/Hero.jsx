@@ -1,8 +1,11 @@
 import React from 'react';
 import { ArrowDown, Clock, Link, MapPin, Phone } from 'lucide-react';
 import { restaurantInfo } from '../data/mock';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+
+  const {t} = useTranslation();
   const scrollToMenu = () => {
     const menuElement = document.getElementById('menu');
     if (menuElement) {
@@ -31,10 +34,10 @@ const Hero = () => {
             <div className="space-y-4">
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight">
                 <span className="block bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
-                {restaurantInfo.name}
+                {t("restaurantInfo.name")}
                 </span>
-                <span className="block text-lg sm:text-xl md:text-3xl lg:text-4xl font-light text-gray-300 mt-4">
-                {restaurantInfo.tagline}
+                <span className="block text-3xl sm:text-xl md:text-3xl lg:text-4xl font-light text-gray-300 mt-4">
+                {t("restaurantInfo.tagline")}
                 </span>
             </h1>
             </div>
@@ -42,7 +45,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed">
-            {restaurantInfo.description}
+            {t("restaurantInfo.description")}
           </p>
 
           {/* Quick info cards */}
@@ -53,9 +56,9 @@ const Hero = () => {
                   <Clock className="h-6 w-6 text-white" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Opening Hours</h3>
-              <p className="text-gray-300 text-sm">Mon-Fri: {restaurantInfo.hours.weekdays}</p>
-              <p className="text-gray-300 text-sm">Sat-Sun: {restaurantInfo.hours.weekends}</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t("buttons.openingHours")}</h3>
+              <p className="text-gray-300 text-sm">{t("restaurantInfo.hours.workingdays.weekdays")}: {t("restaurantInfo.hours.workingdays.weekhours")}</p>
+              <p className="text-gray-300 text-sm">{t("restaurantInfo.hours.workingweekends.weekends")}: {t("restaurantInfo.hours.workingweekends.weekendhours")}</p>
             </div>
             <a href="https://maps.app.goo.gl/7BRyxjdFzVZVLEXP7" target="_blank" rel="noopener noreferrer" className="block">
                 <div className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm border border-red-500/20 rounded-xl p-6 hover:border-red-500/40 transition-all duration-300 hover:scale-105">
@@ -65,8 +68,8 @@ const Hero = () => {
                     </div>
                 </div>
                 
-                <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
-                <p className="text-gray-300 text-sm">{restaurantInfo.address}</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t("buttons.location")}</h3>
+                <p className="text-gray-300 text-sm">{t("contact.address")}</p>
                 
                 </div>
             </a>
@@ -78,8 +81,8 @@ const Hero = () => {
                   <Phone className="h-6 w-6 text-white" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Reservations</h3>
-              <p className="text-gray-300 text-sm">{restaurantInfo.phone}</p>
+              <h3 className="text-lg font-semibold text-white mb-2">{t("buttons.reservations")}</h3>
+              <p className="text-gray-300 text-sm">{t("restaurantInfo.phone")}</p>
               </a>
             </div>
             
@@ -91,7 +94,7 @@ const Hero = () => {
               onClick={scrollToMenu}
               className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-semibold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-red-500/25"
             >
-              Explore Our Menu
+              {t("buttons.exploreMenu")}
               <ArrowDown className="h-5 w-5 group-hover:translate-y-1 transition-transform duration-300" />
             </button>
           </div>

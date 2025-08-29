@@ -1,0 +1,490 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "restaurantInfo": {
+    "name": "Shpendi",
+    "tagline": "Authentic Albanian Cuisine",
+    "description": "Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. From traditional grilled meats to homemade pasta, every meal tells a story of heritage and flavor.",
+    "address": "Rr 402 , Zhelino, Tetovë, North Macedonia",
+    "phone": "+389 70 505 909",
+    "email": "shpendi2003@gmail.com",
+    "hours": {
+      "workingdays" : {
+        "weekdays" : "Mon-Sat",
+        "weekhours" : "08:00 AM - 11:00 PM" 
+      },
+      "workingweekends" : {
+        "weekends" : "Sun",
+        "weekendhours" : "01:00 PM - 11:00 PM"
+      }
+      
+    },
+    "social": {
+      "instagram": "shpendirestaurant",
+      "facebook": "Shpendi Restaurant"
+    }
+  },
+  "buttons": {
+    "exploreMenu": "Explore Our Menu",
+    "reservations": "Reservations",
+    "location": "Location",
+    "openingHours": "Opening Hours"
+  },
+  "about": {
+    "title": "About Shpendi",
+    "description": "Welcome to Shpendi, where traditional Albanian cuisine meets modern dining excellence. Our restaurant has been serving authentic flavors and creating memorable experiences for food lovers who appreciate the rich culinary heritage of Albania.",
+    "features": {
+      "premium": {
+        "title": "Premium Quality",
+        "description": "We use only the finest ingredients sourced locally and internationally to create authentic Albanian flavors."
+      },
+      "tradition": {
+        "title": "Family Tradition",
+        "description": "Our recipes have been passed down through generations, preserving the authentic taste of Albanian cuisine."
+      },
+      "love": {
+        "title": "Made with Love",
+        "description": "Every dish is prepared with passion and attention to detail, ensuring an unforgettable dining experience."
+      },
+      "fresh": {
+        "title": "Fresh Daily",
+        "description": "All our ingredients are fresh and our dishes are prepared daily to guarantee the highest quality."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraphs": [
+        "Founded with a passion for sharing the authentic flavors of Albania, Shpendi represents more than just a restaurant – it's a celebration of culinary heritage and family traditions.",
+        "From our carefully grilled meats to our handcrafted pasta dishes, we invite you to experience the warmth and richness of Albanian hospitality in every bite.",
+        "Skerdilajd Llagami – SHPENDI was martyred on 29.06.2001. After two years, on 29.06.2003, Pizzeria SHPENDI was opened. The name and date are not just a memory, but a living symbol of remembrance and pride for his figure and sacrifice. This makes Pizzeria SHPENDI not only a place for food, but also a place of remembrance, honor and respect."
+      ]
+    },
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "menuItems": "Menu Items",
+      "happyCustomers": "Happy Customers",
+      "averageRating": "Average Rating"
+    }
+  },
+  "menuData": {
+    "title": "Our Menu",
+    "description": "Discover our menu filled with authentic Albanian dishes, carefully prepared with the freshest ingredients. From traditional specialties to modern culinary creations, each dish is a taste experience.",
+    "categories": {
+      "salads": "Salads",
+      "pasta": "Pasta",
+      "pizza": "Pizza",
+      "grill": "Grill"
+    },
+    "featured": "Featured",
+    "dietaryTitle": "Special Dietary Requirements?",
+    "dietaryText": "We're happy to accommodate vegetarian, vegan, and gluten-free requests. Please inform your server about any allergies or dietary restrictions.",
+    "smallLargeNote": "Small / Large portion",
+    "specialPriceNote": "Ask your server for pricing",
+    "salads": [
+      {
+        "id": 1,
+        "name": "Shpendi Salad",
+        "description": "lettuce, cabbage, carrot, tomato, cucumber, cheese, egg, chicken steak",
+        "price": "240",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "name": "Shope Salad", 
+        "description": "tomato, cucumber, pepper, cheese",
+        "price": "150" 
+      },
+      {
+        "id": 3,
+        "name": "Greek Salad",
+        "description": "tomato, cucumber, pepper, olives, onion, cheese",
+        "price": "160"
+      },
+      {
+        "id": 4,
+        "name": "Greek Salad + Tuna",
+        "description": "tomato, cucumber, pepper, onion, cheese, olives, tuna",
+        "price": "250"
+      },
+      {
+        "id": 5,
+        "name": "Greek Salad + Chicken",
+        "description": "tomato, cucumber, pepper, onion, cheese, olives, chicken steak",
+        "price": "250"
+      },
+      {
+        "id": 6,
+        "name": "Tuna Salad",
+        "description": "tomato, cucumber, lettuce, cheese, tuna",
+        "price": "250"
+      },
+      {
+        "id": 7,
+        "name": "Village Salad",
+        "description": "lettuce, cheese, tomato, olives, onoin",
+        "price": "240"
+      },
+      {
+        "id": 8,
+        "name": "Mixed Salad",
+        "description": "tomato, cheese, cucumber, lettuce, carrot, cabbage",
+        "price": "140"
+      },
+      {
+        "id": 9,
+        "name": "Chef Salad",
+        "description": "lettuce, onion, tomato, cheese, beef, olives",
+        "price": "330"
+        
+      },
+      {
+        "id": 10,
+        "name": "Chicken Salad",
+        "description": "lettuce, onion, tomato, cheese, chicken steak",
+        "price": "240"
+      },
+      {
+        
+        "id": 11,
+        "name": "Caesar Salad",
+        "description": "lettuce, cherry, chicken steak, parmesan, croutons, caesar sauce",
+        "price": "200"
+      },
+      {
+        "id": 12,
+        "name": "Rukola Salad",
+        "description": "rukola, cherry tomato, parmesan cheese, balsamic dressing",
+        "price": "240"
+      }
+    ],
+     "pasta": [
+    {
+      "id": 13,
+      "name": "Aglio e Olio",
+      "description": "olive oil, garlic, pepper, parsley",
+      "price": "260/300",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "name": "Chef",
+      "description": "tomato sauce, fresh tomato, beef",
+      "price": "280/330"
+    },
+    {
+      "id": 15,
+      "name": "Napoli",
+      "description": "tomato, tomato sauce, parsley",
+      "price": "280/330"
+    },
+    {
+      "id": 16,
+      "name": "Tuna",
+      "description": "tomato sauce, onion, parsley, tuna",
+      "price": "280/330"
+    },
+    {
+      "id": 17,
+      "name": "Shpendi",
+      "description": "white sauce, tomato, chicken steak, mushrooms, parsley",
+      "price": "280/330"
+    },
+    {
+      "id": 18,
+      "name": "Bolognese",
+      "description": "tomato sauce, minced meat, parsley",
+      "price": "280/330"
+    },
+    {
+      "id": 19,
+      "name": "Seafood",
+      "description": "tomato sauce, olive oil, parsley, garlic, seafood",
+      "price": "280/330"
+    },
+    {
+      "id": 20,
+      "name": "Carbonara",
+      "description": "white sauce, dried meat, egg yolk, parsley",
+      "price": "280/330"
+    },
+    {
+      "id": 21,
+      "name": "Baked Pasta",
+      "description": "tomato sauce, minced meat, yellow cheese",
+      "price": "300"
+    },
+    {
+      "id": 22,
+      "name": "Funghi",
+      "description": "tomato sauce, mushrooms, parsley",
+      "price": "260/300"
+    },
+    {
+      "id": 23,
+      "name": "Lazania",
+      "description": "minced meat, tomato sauce, bechamel, yellow cheese",
+      "price": "300"
+    },
+    {
+      "id": 24,
+      "name": "Arrabiata",
+      "description": "tomato sauce, chili, olives",
+      "price": "280/330"
+    },
+    {
+      "id": 25,
+      "name": "Vegetarian",
+      "description": "seasonal vegetables, mushrooms, olives, cherry, tomato",
+      "price": "280/330"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 26,
+      "name": "Margarita",
+      "description": "tomato sauce, yellow cheese",
+      "price": "220/280",
+      "featured": true
+    },
+    {
+      "id": 27,
+      "name": "Salami",
+      "description": "chicken breast salami",
+      "price": "280/340"
+    },
+    {
+      "id": 28,
+      "name": "Sausage",
+      "description": "Sausage (non spicy)",
+      "price": "280/340"
+    },
+    {
+      "id": 29,
+      "name": "Peperoni",
+      "description": "tomato sauce, yellow cheese, egg, pepper",
+      "price": "280/340"
+    },
+    {
+      "id": 30,
+      "name": "Bolognese",
+      "description": "tomato sauce, yellow cheese, minced meat",
+      "price": "280/340"
+    },
+    {
+      "id": 31,
+      "name": "Al Ponto",
+      "description": "tomato sauce, yellow cheese, sausage, salami",
+      "price": "280/340"
+    },
+    {
+      "id": 32,
+      "name": "Funghi",
+      "description": "tomato sauce, yellow cheese, mushrooms",
+      "price": "280/340"
+    },
+    {
+      "id": 33,
+      "name": "Venezia",
+      "description": "tomato sauce, yellow cheese, mushrooms, salami",
+      "price": "280/340"
+    },
+    {
+      "id": 34,
+      "name": "Rukola",
+      "description": "tomato sauce, yellow cheese, rukola, parmesan",
+      "price": "280/340"
+    },
+    {
+      "id": 35,
+      "name": "Tuna",
+      "description": "tomato sauce, yellow cheese, tuna",
+      "price": "280/340"
+    },
+    {
+      "id": 36,
+      "name": "Preferita",
+      "description": "tomato sauce, yellow cheese, tuna, mushrooms",
+      "price": "280/340"
+    },
+    {
+      "id": 37,
+      "name": "Carnelo",
+      "description": "smoked meat, sausage",
+      "price": "280/340"
+    },
+    {
+      "id": 38,
+      "name": "Cipola",
+      "description": "onion, hot pepper",
+      "price": "240/300"
+    },
+    {
+      "id": 39,
+      "name": "Prosciutto",
+      "description": "tomato sauce, yellow cheese, smoked meat",
+      "price": "280/340"
+    },
+    {
+      "id": 40,
+      "name": "Verona",
+
+      "description": "tomato sauce, yellow cheese, mushrooms, smoked meat",
+      "price": "280/340"
+    },
+    {
+      "id": 41,
+      "name": "Vegjetariane",
+      "description": "tomato sauce, yellow cheese, vegetables, mushrooms",
+      "price": "280/340"
+    },
+    {
+      "id": 42,
+      "name": "Shpendi",
+      "description": "sausage, salami, mushrooms, smoked meat",
+      "price": "280/340"
+    },
+    {
+      "id": 43,
+      "name": "Fruta Deti / Seafood",
+      "description": "tomato sauce, yellow cheese, seafood",
+      "price": "350/400"
+    },
+    {
+      "id": 44,
+      "name": "Tunina",
+      "description": "tuna, cherry, olives",
+      "price": "280/340"
+    },
+    {
+      "id": 45,
+      "name": "Pullino",
+      "description": "chicken meat, cherry, hot pepper",
+      "price": "280/340"
+    },
+    {
+      "id": 46,
+      "name": "Pranvera / Spring",
+      "description": "cherry, olives, cow cheese, mild pepper",
+      "price": "280/340"
+    },
+    {
+      "id": 47,
+      "name": "Chef",
+      "description": "beef meat, cherry, olives",
+      "price": "350/400"
+    }
+  ],
+  "grill": [
+    {
+      "id": 48,
+      "name": "Chicken Steak",
+      "price": "280/350",
+      "featured": true
+    },
+    {
+      "id": 49,
+      "name": "Pleskavic",
+      "price": "200/280"
+    },
+    {
+      "id": 50,
+      "name": "Mini Grill",
+      "description": "sharri plate, chicken fillet",
+      "price": "400"
+    },
+    {
+      "id": 51,
+      "name": "T-Bone Steak",
+      "price": "Special Price"
+    },
+    {
+      "id": 52,
+      "name": "Cordon Bleu", 
+      "description": "wrapped chicken meat",
+      "price": "Special Price"
+    },
+    {
+      "id": 53,
+      "name": "Sharri Pleskavic",
+      "price": "280/440"
+    },
+    {
+      "id": 54,
+      "name": "Beef",
+      "price": "550/850"
+    },
+    {
+      "id": 55,
+      "name": "Mini mix",
+      "descriptionEn": "beef meat, chicken fillet, sharri plate",
+      "price": "850"
+    },
+    {
+      "id": 56,
+      "name": "Beefsteak",
+      "price": "1200"
+    }
+  ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "verified" : "Verified Customer",
+    "description": "Hear from our satisfied customers about their dining experiences at Shpendi. We take pride in delivering exceptional food and service that keeps our guests coming back for more.",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Евгения",
+        "comment": "Great place. Very tasty pasta and wonderful staff. We really enjoyed having lunch with you. Delicious coffee. Thank you for everything!",
+        "rating": 5
+        
+      },
+      {
+        "id": 2,
+        "name": "Valerii Liebiediev",
+        "rating": 4,
+        "comment": "Delicious cafe and pleasant staff. I recommend this establishment."
+        
+      },
+      {
+        "id": 3,
+        "name": "Rexhep Veseli",
+        "rating": 5,
+        "comment": "If you're looking for choices and delicious food, you won't go wrong with your visit."
+        
+      }
+    ],
+      "cta" : {
+        "header" : "Ready to Create Your Own Memorable Experience?",
+        "subheader" : "Join hundreds of satisfied customers who have made Shpendi their favorite dining destination. Book your table today and taste the difference authentic Albanian cuisine makes."
+      },
+      "stats" : {
+        "rating": "Average Rating",
+        "reviews" : "Reviews",
+        "recommend" : "Recommend Us"
+    }
+  },
+  "contact" : {
+      "header" : "Get in Touch",
+      "subheader": "Ready to experience authentic Albanian cuisine? Contact us for reservations or any inquiries.",
+      "info" : "Contact Information",
+      "address": "Rr 402 , Zhelino, Tetovo, North Macedonia",
+      "follow" : "Follow Us"
+    },
+    "footer": {
+      "description" : "Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. Every meal tells a story of heritage and flavor.",
+      "paragraph" : "Made with ❣️ from Albanian Cuisine",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "menu": "Our Menu",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    }
+  }
+}

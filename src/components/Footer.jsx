@@ -1,6 +1,8 @@
 import React from 'react';
 import { Utensils, MapPin, Phone, Mail, Instagram, Facebook, Heart } from 'lucide-react';
 import { restaurantInfo } from '../data/mock';
+import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,8 +12,10 @@ const Footer = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-  };
 
+  
+  };
+const {t} = useTranslation();
   return (
     <footer className="bg-gradient-to-t from-black via-gray-900 to-gray-900 border-t border-red-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,8 +34,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
-              Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. 
-              Every meal tells a story of heritage and flavor.
+              {t("footer.description")}
             </p>
             
             {/* Social media */}
@@ -54,38 +57,40 @@ const Footer = () => {
             </div>
           </div>
 
+          
           {/* Quick Links */}
-          <div>
-            <h3 className="text-white font-bold text-lg mb-6">Quick Links</h3>
-            <ul className="space-y-3">
-              {[
-                { name: 'Home', id: 'hero' },
-                { name: 'About Us', id: 'about' },
-                { name: 'Our Menu', id: 'menu' },
-                { name: 'Testimonials', id: 'testimonials' },
-                { name: 'Contact', id: 'contact' }
-              ].map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
-                    className="text-gray-300 hover:text-red-400 transition-colors duration-300 hover:translate-x-1 transform"
-                  >
-                    {link.name}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
+<div>
+  <h3 className="text-white font-bold text-lg mb-6">{t("footer.quickLinks.title")}</h3>
+  <ul className="space-y-3">
+    {[
+      { key: "home", id: "hero" },
+      { key: "about", id: "about" },
+      { key: "menu", id: "menu" },
+      { key: "testimonials", id: "testimonials" },
+      { key: "contact", id: "contact" }
+    ].map((link) => (
+      <li key={link.id}>
+        <button
+          onClick={() => scrollToSection(link.id)}
+          className="text-gray-300 hover:text-red-400 transition-colors duration-300 hover:translate-x-1 transform"
+        >
+          {t(`footer.quickLinks.${link.key}`)}
+        </button>
+      </li>
+    ))}
+  </ul>
+</div>
+
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">Contact Info</h3>
+            <h3 className="text-white font-bold text-lg mb-6">{t("contact.info")}</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <a href="https://maps.app.goo.gl/7BRyxjdFzVZVLEXP7" target='_blank' rel="noopener noreferrer" className='flex items-start space-x-3'>
                 <MapPin className="h-5 w-5 text-red-400 mt-1 flex-shrink-0" />
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  {restaurantInfo.address}
+                  {t("contact.address")}
                 </p>
                 </a>
               </div>
@@ -109,17 +114,18 @@ const Footer = () => {
 
             {/* Opening hours */}
             <div className="mt-6">
-              <h4 className="text-white font-semibold mb-3">Opening Hours</h4>
+              <h4 className="text-white font-semibold mb-3">{t("buttons.openingHours")}</h4>
               <div className="text-gray-300 text-sm space-y-1">
-                <p>Mon-Fri: {restaurantInfo.hours.weekdays}</p>
-                <p>Sat-Sun: {restaurantInfo.hours.weekends}</p>
+                <p>{t("restaurantInfo.hours.workingdays.weekdays")}: {t("restaurantInfo.hours.workingdays.weekhours")}</p>
+                <p>{t("restaurantInfo.hours.workingweekends.weekends")}:   {t("restaurantInfo.hours.workingweekends.weekendhours")}</p>
               </div>
             </div>
           </div>
         </div>
 
+
         {/* Newsletter section */}
-        <div className="py-8 border-t border-gray-800">
+        {/* <div className="py-8 border-t border-gray-800">
           <div className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm border border-red-500/20 rounded-xl p-8 text-center hover:border-red-500/40 transition-all duration-300">
             <h3 className="text-2xl font-bold text-white mb-4">
               Stay Updated with <span className="text-red-400">Shpendi</span>
@@ -138,7 +144,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom bar */}
         <div className="py-8 border-t border-gray-800">
@@ -146,10 +152,13 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-gray-400 text-sm">
               <span>© {currentYear} Shpendi Restaurant. All rights reserved.</span>
             </div>
+            <div className='flex items-center space-x-2 text-gray-400 text-sm'>
+              <span>Produced by <span className='text-red-400'>Zeqir Xheladini</span></span>
+            </div>
             <div className="flex items-center space-x-2 text-gray-400 text-sm">
-              <span>Made with</span>
-              <Heart className="h-4 w-4 text-red-500 fill-current" />
-              <span>for authentic Albanian cuisine</span>
+              <span>{t("footer.paragraph")}</span>
+              {/* <Heart className="h-4 w-4 text-red-500 fill-current" />
+              <span>for authentic Albanian cuisine</span> */}
             </div>
           </div>
         </div>

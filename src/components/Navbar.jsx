@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Utensils } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
+
 
 const Navbar = () => {
+
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -43,18 +48,49 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['Home', 'About', 'Menu', 'Testimonials', 'Contact'].map((item) => (
+              {['home', 'about', 'menu', 'testimonials', 'contact'].map((key) => (
                 <button
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase() === 'home' ? 'hero' : item.toLowerCase())}
+                  key={key}
+                  onClick={() => scrollToSection(key.toLowerCase() === 'home' ? 'hero' : key.toLowerCase())}
                   className="relative text-gray-300 hover:text-red-400 px-3 py-2 text-sm font-medium transition-all duration-300 group"
                 >
-                  {item}
+                  {t(`navbar.${key}`)}
+                  {/* {item} */}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-red-500 to-red-400 transition-all duration-300 group-hover:w-full"></span>
                 </button>
               ))}
             </div>
           </div>
+
+          
+
+          {/* <div className="hidden md:flex items-center space-x-4">
+            <select
+  onChange={(e) => i18n.changeLanguage(e.target.value)}
+  className="bg-gray-800 text-gray-300 border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors duration-300"
+>
+    <option value="en"> ENG</option>
+    <option value="al">AL</option>
+    <option value="mk"> MK</option>
+
+</select>
+
+          </div> */}
+          <div className="mt-3">
+      <select
+        onChange={(e) => i18n.changeLanguage(e.target.value)}
+        className="w-full bg-gray-800 text-gray-300 border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors duration-300"
+      >
+        <option value="en">🇬🇧 ENG</option>
+        <option value="al">🇦🇱 AL</option>
+        <option value="mk">🇲🇰 MK</option>
+      </select>
+    </div>
+
+  
+
+
+          
 
           {/* Mobile menu button */}
           <div className="md:hidden">

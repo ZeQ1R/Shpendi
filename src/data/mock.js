@@ -1,14 +1,14 @@
 // Mock data for Shpendi Restaurant
 export const restaurantInfo = {
   name: "Shpendi",
-  tagline: "Authentic Albanian Cuisine",
-  description: "Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. From traditional grilled meats to homemade pasta, every meal tells a story of heritage and flavor.",
+  tagline: "Kuzhinë Autentike Shqiptare",
+  description: "Përjetoni kulinarinë më të mirë shqiptare me pjatat tona të përgatitura me kujdes nga përbërësit më të freskët. Nga mishrat tradicionale të pjekur në zgarrë deri tek pasta e bërë në shtëpi, çdo vakt rrëfen një histori trashëgimie dhe shijeje.",
   address: "Rr 402 , Zhelino, Tetovë, North Macedonia",
   phone: "+389 70 505 909",
   email: "shpendi2003@gmail.com",
   hours: {
     weekdays: "08:00 AM - 11:00 PM",
-    weekends: "08:00 AM - 11:00 PM"
+    weekends: "13:00 PM - 11:00 PM"
   },
   social: {
     instagram: "shpendirestaurant",
@@ -24,6 +24,7 @@ export const menuData = {
       nameEn: "Shpendi Salad",
       description: "marule, lakër karrotë, domate, spec, qepë, veze, stek pule",
       descriptionEn: "lettuce, cabbage, carrot, tomato, cucumber, cheese, egg, chicken steak",
+      descriptionMk : "марула, зелка, морков, домат, краставица, сирење, јајце, пилешки стек",
       price: "240",
       featured: true
     },
@@ -33,14 +34,16 @@ export const menuData = {
       nameEn: "Shope Salad", 
       description: "domate, kastravec, spec, qepë, djathë",
       descriptionEn: "tomato, cucumber, pepper, cheese",
+      descriptionMk : "домати, краставица, мелено сирење ",
       price: "150"
     },
     {
       id: 3,
-      name: "Sallatë greke",
+      name: "Sallatë greke / Грчка салата",
       nameEn: "Greek Salad",
       description: "domate, kastravec, piperak, kriposa, ullinj",
       descriptionEn: "tomato, cucumber, pepper, onion, cheese, olives",
+      descriptionMk : "домати, краставица, пиперка, кромид, сирење, маслинки",
       price: "160"
     },
     {
@@ -49,6 +52,7 @@ export const menuData = {
       nameEn: "Greek Salad + Tuna",
       description: "domate, kastravec, spec, qepë, djath, ullinj, tuna",
       descriptionEn: "tomato, cucumber, pepper, onion, cheese, olives, tuna",
+      descriptionMk : "домати, краставица, пиперка, кромид, сирење, маслинки, туна ",
       price: "250"
     },
     {
@@ -57,6 +61,7 @@ export const menuData = {
       nameEn: "Greek Salad + Chicken",
       description: "domate, kastravec, spec, qepë, djath, ullinj, pule panxhikë",
       descriptionEn: "tomato, cucumber, pepper, onion, cheese, olives, chicken",
+      descriptionMk : "домати, краставица, пиперка, кромид, сирење, маслинки, пилешко",
       price: "250"
     },
     {
@@ -65,22 +70,25 @@ export const menuData = {
       nameEn: "Tuna Salad",
       description: "domate, kastravec, marule, djath, tuna",
       descriptionEn: "tomato, cucumber, lettuce, cheese, tuna",
+      descriptionMk : "домати, краставица, марула, сирење, туна ",
       price: "250"
     },
     {
       id: 7,
-      name: "Sallatë Fshatit",
+      name: "Sallatë Fshatit / Селска салата",
       nameEn: "Village Salad",
       description: "marule, djathë, domate, ullinj, spec",
       descriptionEn: "lettuce, cheese, tomato, olives, onion",
+      descriptionMk: "марула, сирење, домат, маслинки, кромид",
       price: "240"
     },
     {
       id: 8,
-      name: "Sallatë e Përzier",
+      name: "Sallatë e Përzier / Мешана салата",
       nameEn: "Mixed Salad",
       description: "domate, djath, kastravec, marule, karrotë, lakër",
       descriptionEn: "tomato, cheese, cucumber, lettuce, carrot, cabbage",
+      descriptionMk : "домати, сирење, краставица, марула, морков, зелка",
       price: "140"
     },
     {
@@ -89,14 +97,16 @@ export const menuData = {
       nameEn: "Chef Salad",
       description: "marule, qepë, domate, djath, mish viçi, ullinj",
       descriptionEn: "lettuce, onion, tomato, cheese, beef, olives",
+      descriptionMk : "марула, кромид, домат, сирење, говедско месо, маслинки ",
       price: "330"
     },
     {
       id: 10,
-      name: "Sallatë Pulë",
+      name: "Sallatë Pulë / Пилешка салата",
       nameEn: "Chicken Salad",
       description: "marule, aromë, domate, djathë, stek pulë",
       descriptionEn: "lettuce, onion, tomato, cheese, chicken steak",
+      descriptionMk : "марула, кромид, домат, сирење, пилешки стек, маслинки",
       price: "240"
     },
     {
@@ -105,6 +115,7 @@ export const menuData = {
       nameEn: "Caesar Salad",
       description: "marule, sherri, stek parmezan, sos majdonezi",
       descriptionEn: "lettuce, cherry, chicken steak, parmesan, croutons, caesar sauce",
+      descriptionMk : "марула, шери, пилешки стек, пармезан, крутони, мајонез сос",
       price: "240"
     },
     {
@@ -113,13 +124,14 @@ export const menuData = {
       nameEn: "Rukola Salad",
       description: "sonuar, parmezan, rukola",
       descriptionEn: "tomato, parmesan, arugula",
+      descriptionMk : "домат, пармезан, рукола",
       price: "240"
     }
   ],
   pasta: [
     {
       id: 13,
-      name: "Aglio e Olio",
+      nameEn: "Aglio e Olio",
       description: "vaj ulliri, hudher, spec, majdanos",
       descriptionEn: "olive oil, garlic, pepper, parsley",
       price: "260/300",
@@ -127,85 +139,87 @@ export const menuData = {
     },
     {
       id: 14,
-      name: "Chef",
+      nameEn: "Chef",
       description: "sos domatesh, domate të freskëta, mish viçi",
       descriptionEn: "tomato sauce, fresh tomato, beef",
       price: "280/330"
     },
     {
       id: 15,
-      name: "Napoli",
+      nameEn: "Napoli",
       description: "domate, sos domatesh, majdanos",
       descriptionEn: "tomato, tomato sauce, parsley",
       price: "280/330"
     },
     {
       id: 16,
-      name: "Tuna",
+      nameEn: "Tuna",
       description: "sos domatesh, qepë, majdanos, tuna",
       descriptionEn: "tomato sauce, onion, parsley, tuna",
       price: "280/330"
     },
     {
       id: 17,
-      name: "Shpendi",
+      nameEn: "Shpendi",
       description: "sos i bardhë, domate, stek pule, kërpudha, majdanos",
       descriptionEn: "white sauce, tomato, chicken steak, mushrooms, parsley",
       price: "280/330"
     },
     {
       id: 18,
-      name: "Bolognese",
+      nameEn: "Bolognese",
       description: "sos domatesh, mish i bluar",
       descriptionEn: "tomato sauce, minced meat, parsley",
       price: "280/330"
     },
     {
       id: 19,
-      name: "Fruta Deli / Seafood",
+      nameEn : "Seafood",
+      nameAM : "Fruta Deti / Морски плодови",
       description: "sos domatesh, mish i bluar, majdanos, fruta deti",
       descriptionEn: "tomato sauce, olive oil, parsley, garlic, seafood",
       price: "280/330"
     },
     {
       id: 20,
-      name: "Carbonara",
+      nameEn: "Carbonara",
       description: "sos i bardhë, mish i thate, e kuqe veze, majdanos",
       descriptionEn: "white sauce, dried meat, egg yolk, parsley",
       price: "280/330"
     },
     {
       id: 21,
-      name: "Makarona në Furr",
+      
       nameEn: "Baked Pasta",
+      nameAM: "Makarona në Furr / Макарони во рерна",
       description: "sos domatesh, djathë, mish i bluar, djathë i verdhë",
       descriptionEn: "tomato sauce, minced meat, yellow cheese",
       price: "300"
     },
     {
       id: 22,
-      name: "Funghi",
+      nameEn: "Funghi",
       description: "sos domatesh, kërpudha, majdanos",
       descriptionEn: "tomato sauce, mushrooms, parsley",
       price: "260/300"
     },
     {
       id: 23,
-      name: "Lazania",
+      nameEn: "Lazania",
       description: "mish i bluar, sos domatesh, bechamel, kačkaval",
       descriptionEn: "minced meat, tomato sauce, bechamel, yellow cheese",
       price: "300"
     },
     {
       id: 24,
-      name: "Arrabiata",
+      nameEn: "Arrabiata",
       description: "sos domatesh, djegëse, ullinj",
       descriptionEn: "tomato sauce, chili, olives",
       price: "280/330"
     },
     {
       id: 25,
-      name: "Vegjetariane",
+      nameEn: "Vegetarian",
       description: "perime sezonale, kërpudha, ullinj, sherri, domate",
       descriptionEn: "seasonal vegetables, mushrooms, olives, cherry, tomato",
       price: "280/330"
@@ -334,7 +348,8 @@ export const menuData = {
     },
     {
       id: 43,
-      name: "Fruta Deli / Seafood",
+      name: "Seafood",
+      nameAM : "Fruta Deli / Морски плодови",
       description: "sos domate, kačkaval, fruta deti",
       descriptionEn: "tomato sauce, yellow cheese, seafood",
       price: "350/400"
@@ -355,7 +370,8 @@ export const menuData = {
     },
     {
       id: 46,
-      name: "Pranvera / Spring",
+      name: "Spring",
+      nameAM : "Pranvera / Пролет",
       description: "sherri, ullinj, djathë cope, spec jo djegës",
       descriptionEn: "cherry, olives, cow cheese, mild pepper",
       price: "280/340"
@@ -371,20 +387,20 @@ export const menuData = {
   grill: [
     {
       id: 48,
-      name: "Stek pulë",
+      name: "Stek pulë / Пилешки стек",
       nameEn: "Chicken Steak",
       price: "280/350",
       featured: true
     },
     {
       id: 49,
-      name: "Pleskavicë",
+      name: "Pleskavicë / Плескавица",
       nameEn: "Pleskavic",
       price: "200/280"
     },
     {
       id: 50,
-      name: "Mini zgarë",
+      name: "Mini zgarë / Мини грил",
       nameEn: "Mini Grill",
       description: "sharri, stek",
       descriptionEn: "sharri plate, chicken fillet",
@@ -403,13 +419,13 @@ export const menuData = {
     },
     {
       id: 53,
-      name: "Pleskavicë Sharri",
+      name: "Pleskavicë Sharri / Шарска плескавица",
       nameEn: "Sharri Pleskavic",
       price: "280/440"
     },
     {
       id: 54,
-      name: "Mish viçi",
+      name: "Mish viçi / Говедско месо",
       nameEn: "Beef",
       price: "550/850"
     },
@@ -422,7 +438,7 @@ export const menuData = {
     },
     {
       id: 56,
-      name: "Biftek",
+      name: "Biftek viçi / Говедски бифтек",
       nameEn: "Beefsteak",
       price: "1200"
     }

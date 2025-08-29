@@ -1,39 +1,43 @@
-import React, { useState } from 'react';
+
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Send } from 'lucide-react';
 import { restaurantInfo } from '../data/mock';
+import EmbededMap from './EmbededMap';
+import { useTranslation } from 'react-i18next';
 
-const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    date: '',
-    time: '',
-    guests: '2',
-    message: ''
-  });
+function Contact()  {
 
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+  const {t} = useTranslation();
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   date: '',
+  //   time: '',
+  //   guests: '2',
+  //   message: ''
+  // });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Mock form submission
-    alert('Thank you for your reservation request! We will contact you shortly to confirm your booking.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      date: '',
-      time: '',
-      guests: '2',
-      message: ''
-    });
-  };
+  // const handleInputChange = (e) => {
+  //   setFormData({
+  //     ...formData,
+  //     [e.target.name]: e.target.value
+  //   });
+  // };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Mock form submission
+  //   alert('Thank you for your reservation request! We will contact you shortly to confirm your booking.');
+  //   setFormData({
+  //     name: '',
+  //     email: '',
+  //     phone: '',
+  //     date: '',
+  //     time: '',
+  //     guests: '2',
+  //     message: ''
+  //   });
+  
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden">
@@ -48,12 +52,12 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
-              Get In Touch
+              {t("contact.header")}
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-red-600 to-red-400 mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-300">
-            Ready to experience authentic Albanian cuisine? Contact us for reservations or any inquiries.
+            {t("contact.subheader")}
           </p>
         </div>
 
@@ -61,7 +65,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-8">Contact Information</h3>
+              <h3 className="text-2xl font-bold text-white mb-8">{t("contact.info")}</h3>
               
               {/* Contact items */}
               <div className="space-y-6">
@@ -74,7 +78,7 @@ const Contact = () => {
                   
                   <div>
                     <h4 className="text-white font-semibold mb-2">Address</h4>
-                    <p className="text-gray-300">{restaurantInfo.address}</p>
+                    <p className="text-gray-300">{t("contact.address")}</p>
                   </div>
                  </a>
                 </div>
@@ -109,10 +113,10 @@ const Contact = () => {
                     <Clock className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-2">Opening Hours</h4>
+                    <h4 className="text-white font-semibold mb-2">{t("buttons.openingHours")}</h4>
                     <div className="text-gray-300 space-y-1">
-                      <p>Monday - Friday: {restaurantInfo.hours.weekdays}</p>
-                      <p>Saturday - Sunday: {restaurantInfo.hours.weekends}</p>
+                      <p>{t("restaurantInfo.hours.workingdays.weekdays")}: {t("restaurantInfo.hours.workingdays.weekhours")}</p>
+                      <p>{t("restaurantInfo.hours.workingweekends.weekends")}: {t("restaurantInfo.hours.workingweekends.weekendhours")}</p>
                     </div>
                   </div>
                 </div>
@@ -121,7 +125,7 @@ const Contact = () => {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-2xl font-bold text-white mb-6">Follow Us</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">{t("contact.follow")}</h3>
               <div className="flex space-x-4">
                 <a
                   href="#"
@@ -130,7 +134,7 @@ const Contact = () => {
                   <Instagram className="h-6 w-6 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/shpendipizzeria/"
                   className="bg-gradient-to-r from-red-600 to-red-500 p-3 rounded-full hover:scale-110 transition-transform duration-300 group"
                 >
                   <Facebook className="h-6 w-6 text-white" />
@@ -143,11 +147,13 @@ const Contact = () => {
             </div>
           </div>
 
+          <EmbededMap/>
+
           {/* Reservation Form */}
-          <div className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm border border-red-500/20 rounded-xl p-8 hover:border-red-500/40 transition-all duration-300">
-            <h3 className="text-2xl font-bold text-white mb-6">Make a Reservation</h3>
+          {/* <div className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm border border-red-500/20 rounded-xl p-8 hover:border-red-500/40 transition-all duration-300"> */}
+            {/* <h3 className="text-2xl font-bold text-white mb-6">Make a Reservation</h3> */}
             
-            <form onSubmit={handleSubmit} className="space-y-6">
+            {/* <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-white font-semibold mb-2">Name *</label>
@@ -267,8 +273,8 @@ const Contact = () => {
                 <Send className="h-5 w-5" />
                 Send Reservation Request
               </button>
-            </form>
-          </div>
+            </form> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
