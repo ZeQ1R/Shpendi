@@ -2,10 +2,13 @@ import React from 'react';
 import { Utensils, MapPin, Phone, Mail, Instagram, Facebook, Heart } from 'lucide-react';
 import { restaurantInfo } from '../data/mock';
 import { useTranslation } from 'react-i18next';
+import LanguageDropdown from './LanguageDropdown';
 
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const { i18n } = useTranslation();
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -121,6 +124,17 @@ const {t} = useTranslation();
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mt-3 flex justify-center">
+          <select
+            onChange={(e) => i18n.changeLanguage(e.target.value)}
+            className="w-30 mb-6 bg-gray-800 text-gray-300 border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors duration-300"
+          >
+            <option value="en">English</option>
+            <option value="al">Shqip</option>
+            <option value="mk">Македонски</option>
+          </select>
         </div>
 
 

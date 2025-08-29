@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -76,7 +76,7 @@ const Navbar = () => {
 </select>
 
           </div> */}
-          <div className="mt-3">
+          {/* <div className="mt-3">
       <select
         onChange={(e) => i18n.changeLanguage(e.target.value)}
         className="w-full bg-gray-800 text-gray-300 border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-red-500 transition-colors duration-300"
@@ -85,7 +85,7 @@ const Navbar = () => {
         <option value="al">🇦🇱 AL</option>
         <option value="mk">🇲🇰 MK</option>
       </select>
-    </div>
+    </div> */}
 
   
 
