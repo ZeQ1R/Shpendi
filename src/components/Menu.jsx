@@ -265,11 +265,16 @@ const Menu = () => {
                       </p>
                     )}
                   </div>
-                  <div className="ml-4">
+                  {item.price && (
+                    <div className="ml-4">
                     <span className="text-lg font-bold text-red-400">
                       {item.price} MKD
-                    </span>
-                  </div>
+                      </span>
+                    </div>
+                  )}
+                  
+                  
+                  
                 </div>
 
                 {/* Description */}

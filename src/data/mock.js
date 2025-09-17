@@ -209,6 +209,7 @@ export const menuData = {
       nameEn: "Funghi",
       description: "sos domatesh, kërpudha, majdanos",
       descriptionEn: "tomato sauce, mushrooms, parsley",
+      descriptionMk : "домат сос, печурки, магдонос",
       price: "260/300"
     },
     {
@@ -239,11 +240,11 @@ export const menuData = {
   pizza: [
     {
       id: 26,
-      nameEn: "Margarita",
-      description: "sos domatesh, kačkaval",
-      descriptionEn: "tomato sauce, yellow cheese",
-      descriptionMk : "домат сос, кашкавал",
-      price: "220/280",
+      nameEn: "Shpendi",
+      description: "suxhuk, salame, kërpudha, mish i thatë",
+      descriptionEn: "sausage, salami, mushrooms, smoked meat",
+      descriptionMk : "колбас, салам, печурки, суво месо",
+      price: "280/340",
       featured: true
     },
     {
@@ -408,11 +409,11 @@ export const menuData = {
     },
     {
       id: 47,
-      nameEn: "Shpendi",
-      description: "suxhuk, salame, kërpudha, mish i thatë",
-      descriptionEn: "sausage, salami, mushrooms, smoked meat",
-      descriptionMk : "колбас, салам, печурки, суво месо",
-      price: "280/340"
+      nameEn: "Margarita",
+      description: "sos domatesh, kačkaval",
+      descriptionEn: "tomato sauce, yellow cheese",
+      descriptionMk : "домат сос, кашкавал",
+      price: "220/280",
     },
     {
       id: 48,
@@ -460,19 +461,27 @@ export const menuData = {
   grill: [
     {
       id: 53,
-      name: "Stek pulë / Пилешки стек",
-      nameEn: "Chicken Steak",
-      price: "280/350",
+      nameEn: "Mini mix",
+      description: "qoftëmeci, mish viçi, gjizël sharri",
+      descriptionEn: "beef meat, chicken fillet, sharri plate",
+      descriptionMk : "говедско месо, пилешко месо, шарска плата",
+      price: "850",
       featured: true
     },
     {
       id: 54,
+      name: "Stek pulë / Пилешки стек",
+      nameEn: "Chicken Steak",
+      price: "280/350",
+    },
+    {
+      id: 55,
       name: "Pleskavicë / Плескавица",
       nameEn: "Pleskavic",
       price: "200/280"
     },
     {
-      id: 55,
+      id: 56,
       name: "Mini zgarë / Мини грил",
       nameEn: "Mini Grill",
       description: "Pleskavic sharri, stek",
@@ -480,15 +489,35 @@ export const menuData = {
       descriptionEn: "sharri plate, chicken fillet",
       price: "400"
     },
+    
     {
-      id: 56,
+      id: 57,
+      name: "Pleskavicë Sharri / Шарска плескавица",
+      nameEn: "Sharri Pleskavic",
+      price: "280/440"
+    },
+    {
+      id: 58,
+      name: "Mish viçi / Говедско месо",
+      nameEn: "Beef",
+      price: "550/850"
+    },
+    
+    {
+      id: 59,
+      name: "Biftek viçi / Говедски бифтек",
+      nameEn: "Beefsteak",
+      price: "1200"
+    },
+    {
+      id: 60,
       nameEn: "T-Bone Steak",
       price: "Special Price",
       priceMk: "Специјална цена",
       priceAl: "Çmim Special"
     },
     {
-      id: 57,
+      id: 61,
       nameEn: "Cordon Bleu", 
       description: "mish pule i mbështjellur me djathë",
       descriptionMk : "пилешко месо завиткано со сирење",
@@ -497,32 +526,6 @@ export const menuData = {
       priceMk: "Специјална цена",
       priceAl: "Çmim Special"
     },
-    {
-      id: 58,
-      name: "Pleskavicë Sharri / Шарска плескавица",
-      nameEn: "Sharri Pleskavic",
-      price: "280/440"
-    },
-    {
-      id: 59,
-      name: "Mish viçi / Говедско месо",
-      nameEn: "Beef",
-      price: "550/850"
-    },
-    {
-      id: 60,
-      nameEn: "Mini mix",
-      description: "qoftëmeci, mish viçi, gjizël sharri",
-      descriptionEn: "beef meat, chicken fillet, sharri plate",
-      descriptionMk : "говедско месо, пилешко месо, шарска плата",
-      price: "850"
-    },
-    {
-      id: 61,
-      name: "Biftek viçi / Говедски бифтек",
-      nameEn: "Beefsteak",
-      price: "1200"
-    }
   ]
 };
 

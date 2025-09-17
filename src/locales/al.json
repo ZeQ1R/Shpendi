@@ -8,8 +8,8 @@
   },
   "restaurantInfo": {
     "name": "Shpendi",
-    "tagline": "Kuzhinë Autentike Shqiptare",
-    "description": "Përjetoni kulinarinë më të mirë shqiptare me pjatat tona të përgatitura me kujdes nga përbërësit më të freskët. Nga mishrat tradicionale të pjekur në zgarrë deri tek pasta e bërë në shtëpi, çdo vakt rrëfen një histori trashëgimie dhe shijeje.",
+    "tagline": "Shije Unike Italiane",
+    "description" : "Shijoni magjinë e kulinarisë italiane me receta që bashkojnë traditën dhe elegancën. Çdo pjatë përgatitet me përbërës të freskët e cilësorë, duke filluar nga pastat, mishi, sallatat deri tek picat e pjekura në furrë me mjeshtëri.",
     "address": "Rr 402 , Zhelinë, Tetovë, Maqedonia e Veriut",
     "phone": "+389 70 505 909",
     "email": "shpendi2003@gmail.com",
@@ -37,7 +37,7 @@
   
   "about": {
     "title": "Rreth Shpendit",
-    "description": "Mirësevini në Shpendi, ku kuzhina tradicionale shqiptare takohet me ekselencën moderne të shërbimit. Restoranti ynë ofron shije autentike dhe krijon përvoja të paharrueshme për adhuruesit e ushqimit që vlerësojnë trashëgiminë kulinare të Shqipërisë.",
+    "description": "Mirësevini në Shpendi, ku kuzhina tradicionale italiane takohet me ekselencën moderne të shërbimit.Restoranti ynë ofron shije autentike të Italisë dhe krijon përvoja të paharrueshme për adhuruesit e ushqimit që vlerësojnë trashëgiminë kulinare italiane.",
     "features": {
       "premium": {
         "title": "Cilësi Premium",
@@ -59,8 +59,8 @@
     "story": {
       "title": "Historia Jonë",
       "paragraphs": [
-       "Themeluar me pasion për të ndarë shijet autentike të Shqipërisë, Shpendi përfaqëson më shumë se një restorant – është një festë e trashëgimisë kulinare dhe traditave familjare.",
-       "Nga mishrat e pjekur me kujdes te pasta e përgatitur me dorë, ju ftojmë të përjetoni ngrohtësinë dhe pasurinë e mikpritjes shqiptare në çdo kafshatë.",
+       "Themeluar me pasion për të sjellë shijet autentike të Italisë, Shpendi është më shumë se një restorant – është një përfaqësim i sofistikimit gastronomik dhe i trashëgimisë kulinare italiane.",
+       "Me receta të përgatitura me përpikmëri, nga pastat artizanale deri te picat tradicionale të pjekura në furrë, ne ofrojmë një përvojë të paharrueshme që mishëron ngrohtësinë dhe elegancën e mikpritjes italiane në çdo detaj.",
        "Skerdilajd Llagami – SHPENDI ra dëshmor më 29.06.2001. Pas plot dy vitesh, më 29.06.2003, u hap Piceria SHPENDI. Emri dhe data nuk janë thjesht një kujtesë, por një simbol i gjallë përkujtimi e krenarie për figurën dhe sakrificën e tij. Kjo e bën Picerinë SHPENDI jo vetëm një vend ushqimi, por edhe një vend kujtese, nderimi dhe respekti."
       
       ]
@@ -74,7 +74,7 @@
   },
   "menuData": {
     "title": "Menyja Jonë",
-    "description": "Zbuloni menynë tonë të mbushur me pjata autentike shqiptare, të përgatitura me kujdes nga përbërësit më të freskët. Nga specialitetet tradicionale deri te krijimet moderne kulinare, çdo pjatë është një përvojë shijimi.",
+    "description": "Zbuloni menynë tonë të pasur me pjata autentike italiane, të përgatitura me kujdes nga përbërësit më të freskët dhe cilësorë.Nga specialitetet tradicionale italiane deri te krijimet moderne kulinare, çdo pjatë ofron një përvojë unike shijimi që pasqyron pasurinë dhe sofistikimin e kuzhinës italiane.",
     "categories": {
       "salads": "Sallata",
       "pasta": "Pasta",
@@ -444,7 +444,7 @@
       "id": 52,
       "name": "Cordon Bleu", 
       "description": "mish pule i mbështjellur / parmezan veze so djathura / wrapped chicken meat",
-      "price": "Special Price"
+      "price": "Cmim Special"
     },
     {
       "id": 53,
@@ -512,14 +512,14 @@
   },
   "contact": {
     "header": "Na Kontaktioni",
-    "subheader": "Gati për të përjetuar kuzhinën autentike shqiptare? Na kontaktoni për rezervime ose çdo pyetje.",
+    "subheader": "Gati për të përjetuar kuzhinën autentike Italiane? Na kontaktoni për rezervime ose çdo pyetje.",
     "info": "Informacion Kontakti",
     "address": "Rr 402 , Zhelinë, Tetovë, Maqedonia e Veriut",
     "follow" : "Na Ndiqni"
   },
   
   "footer": {
-    "description" : "Përjetoni gatimet më të mira shqipëtare me gatimet tona të përgatitura me kujdes nga përbërësit më të freskët. Çdo vakt tregon një histori trashëgimie dhe shijeje.",
+    "description" : "Përjetoni gatimet më të mira italiane me gatimet tona të përgatitura me kujdes nga përbërësit më të freskët. Çdo vakt tregon një histori trashëgimie dhe shijeje.",
     "paragraph" : "Bërë me ❣️ për kuzhinën autentike shqiptare",
     "quickLinks": {
       "title": "Lidhje të Shpejta",
