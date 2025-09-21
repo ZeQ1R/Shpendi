@@ -12,7 +12,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App min-h-screen bg-black text-white">
-      <Router>
+
+      <Router basename='/Shpendi'>
         <Routes>
           <Route path="/" element={
             <>
