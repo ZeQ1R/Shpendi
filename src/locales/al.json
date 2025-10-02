@@ -9,18 +9,18 @@
   "restaurantInfo": {
     "name": "Shpendi",
     "tagline": "Shije Unike Italiane",
-    "description" : "Shijoni magjinë e kulinarisë italiane me receta që bashkojnë traditën dhe elegancën. Çdo pjatë përgatitet me përbërës të freskët e cilësorë, duke filluar nga pastat, mishi, sallatat deri tek picat e pjekura në furrë me mjeshtëri.",
+    "description" : "Shijoni magjinë e kuzhinës italiane me receta që bashkojnë traditën dhe elegancën. Çdo pjatë përgatitet me përbërës të freskët e cilësorë, duke filluar nga pastat, mishi, sallatat e deri tek picat.",
     "address": "Rr 402 , Zhelinë, Tetovë, Maqedonia e Veriut",
     "phone": "+389 70 505 909",
     "email": "shpendi2003@gmail.com",
     "hours": {
       "workingdays" : {
-        "weekdays" : "Hënë-Shtunë",
+        "weekdays" : "E Hënë-Shtunë",
         "weekhours" : "08:00 AM - 11:00 PM" 
       },
       "workingweekends" : {
-        "weekends" : "Diel",
-        "weekendhours" : "01:00 PM - 11:00 PM"
+        "weekends" : "E Diel",
+        "weekendhours" : "12:00 PM - 11:00 PM"
       }
     },
     "social": {
@@ -32,20 +32,21 @@
     "exploreMenu": "Shiko Menynë",
     "reservations": "Rezervime",
     "location": "Lokacioni",
+    "phone": "Telefoni",
     "openingHours": "Orari i Punës"
   },
   
   "about": {
     "title": "Rreth Shpendit",
-    "description": "Mirësevini në Shpendi, ku kuzhina tradicionale italiane takohet me ekselencën moderne të shërbimit.Restoranti ynë ofron shije autentike të Italisë dhe krijon përvoja të paharrueshme për adhuruesit e ushqimit që vlerësojnë trashëgiminë kulinare italiane.",
+    "description": "Mirësevini në Shpendi, ku kuzhina tradicionale italiane ndërthuret me shërbim bashkëkohor. Restoranti ynë sjell shijet e vërteta të Italisë dhe krijon përvoja të veçanta për të gjithë ata që duan kuzhinën italiane dhe traditat e saj.",
     "features": {
       "premium": {
         "title": "Cilësi Premium",
-        "description": "Përdorim vetëm përbërësit më të mirë të buruar lokal dhe ndërkombëtar për të krijuar shije autentike shqiptare."
+        "description": "Përbërës të freskët dhe të zgjedhur me kujdes, për një shije autentike italiane në çdo pjatë."
       },
       "tradition": {
         "title": "Traditë Familjare",
-        "description": "Recetat tona janë trashëguar brez pas brezi, duke ruajtur shijen autentike të kuzhinës shqiptare."
+        "description": "Recetat tona janë trashëguar brez pas brezi, duke ruajtur shijen autentike të kuzhinës Italiane."
       },
       "love": {
         "title": "Përgatitur me Dashuri",
@@ -53,14 +54,14 @@
       },
       "fresh": {
         "title": "Freskësi e Përditshme",
-        "description": "Të gjithë përbërësit tanë janë të freskët dhe pijatat përgatiten çdo ditë për të garantuar cilësinë më të lartë."
+        "description": "Të gjithë përbërësit tanë janë të freskët dhe pjatat përgatiten çdo ditë për të garantuar cilësinë më të lartë."
       }
     },
     "story": {
       "title": "Historia Jonë",
       "paragraphs": [
-       "Themeluar me pasion për të sjellë shijet autentike të Italisë, Shpendi është më shumë se një restorant – është një përfaqësim i sofistikimit gastronomik dhe i trashëgimisë kulinare italiane.",
-       "Me receta të përgatitura me përpikmëri, nga pastat artizanale deri te picat tradicionale të pjekura në furrë, ne ofrojmë një përvojë të paharrueshme që mishëron ngrohtësinë dhe elegancën e mikpritjes italiane në çdo detaj.",
+       "Shpendi është më shumë se një restorant – është një vend ku bashkon kuzhinën tradicionale me atë Italiane.",
+       "Me receta të përgatitura me përpikmëri, nga pastat, sallatat, mishi e deri te picat, ne ofrojmë një përvojë të paharrueshme që mishëron ngrohtësinë dhe elegancën e mikpritjes tonë në çdo detaj.",
        "Skerdilajd Llagami – SHPENDI ra dëshmor më 29.06.2001. Pas plot dy vitesh, më 29.06.2003, u hap Piceria SHPENDI. Emri dhe data nuk janë thjesht një kujtesë, por një simbol i gjallë përkujtimi e krenarie për figurën dhe sakrificën e tij. Kjo e bën Picerinë SHPENDI jo vetëm një vend ushqimi, por edhe një vend kujtese, nderimi dhe respekti."
       
       ]
@@ -502,7 +503,7 @@
     ],
     "cta": {
       "header" : "Gati për të krijuar përvojën tuaj të paharrueshme?",
-      "subheader" : "Bashkohuni me qindra klientë të kënaqur që e kanë bërë Shpendin destinacionin e tyre të preferuar për të ngrënë. Rezervoni tryezën tuaj sot dhe shijoni ndryshimin që bën kuzhina autentike shqiptare."
+      "subheader" : "Bashkohuni me qindra klientë të kënaqur që e kanë bërë Shpendin destinacionin e tyre të preferuar për të ngrënë. Rezervoni tryezën tuaj sot dhe shijoni ndryshimin që bën kuzhina autentike Italiane."
     },
     "stats" : {
       "rating": "Vlerësimi Mesatar",
@@ -520,7 +521,7 @@
   
   "footer": {
     "description" : "Përjetoni gatimet më të mira italiane me gatimet tona të përgatitura me kujdes nga përbërësit më të freskët. Çdo vakt tregon një histori trashëgimie dhe shijeje.",
-    "paragraph" : "Bërë me ❣️ për kuzhinën autentike shqiptare",
+    "paragraph" : "Bërë me ❣️ për kuzhinën Italiane",
     "quickLinks": {
       "title": "Lidhje të Shpejta",
       "home": "Ballina",

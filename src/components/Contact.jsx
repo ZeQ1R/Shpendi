@@ -77,7 +77,7 @@ function Contact()  {
                   </div>
                   
                   <div>
-                    <h4 className="text-white font-semibold mb-2">Address</h4>
+                    <h4 className="text-white font-semibold mb-2">{t("buttons.location")}</h4>
                     <p className="text-gray-300">{t("contact.address")}</p>
                   </div>
                  </a>
@@ -89,7 +89,7 @@ function Contact()  {
                     <Phone className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-2">Phone</h4>
+                    <h4 className="text-white font-semibold mb-2">{t("buttons.phone")}</h4>
                     <p className="text-gray-300">{restaurantInfo.phone}</p>
                   </div>
                   </a>

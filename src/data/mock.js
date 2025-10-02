@@ -241,26 +241,26 @@ export const menuData = {
     {
       id: 26,
       nameEn: "Shpendi",
-      description: "suxhuk, salame, kërpudha, mish i thatë",
-      descriptionEn: "sausage, salami, mushrooms, smoked meat",
-      descriptionMk : "колбас, салам, печурки, суво месо",
+      description: "sos domatesh, kačkavall,suxhuk, salame, kërpudha, mish i thatë",
+      descriptionEn: "tomato sauce,yellow cheese, sausage, salami, mushrooms, smoked meat",
+      descriptionMk : "домат сос, кашкавал,колбас, салам, печурки, суво месо",
       price: "280/340",
       featured: true
     },
     {
       id: 27,
       nameEn: "Salami",
-      description: "salami gjizël pule",
-      descriptionEn: "chicken breast salami",
-      descriptionMk : "пилешки салам",
+      description: "sos domatesh, kačkaval, salami (gjizël pule)",
+      descriptionEn: "tomato sauce, yellow cheese, chicken breast salami",
+      descriptionMk : "домат сос, кашкавал, пилешки салам",
       price: "280/340"
     },
     {
       id: 28,
       nameEn: "Suxhuk",
-      description: "suxhuk (copë të djegësa)",
-      descriptionEn: "sausage (non spicy)",
-      descriptionMk : "колбас (не лути)",
+      description: "sos domatesh, kačkaval, suxhuk (copë të djegësa)",
+      descriptionEn: "tomato sauce, yellow cheese, sausage (non spicy)",
+      descriptionMk : "домат сос, кашкавал, колбас (не лути)",
       price: "280/340"
     },
     {
@@ -330,57 +330,57 @@ export const menuData = {
     {
       id: 37,
       nameEn: "Carnelo",
-      description: "mish thatë, suxhuk",
-      descriptionEn: "dried meat, sausage",
-      descriptionMk : "суво месо, колбас",
+      description: "sos domatesh, kačkaval, mish thatë, suxhuk",
+      descriptionEn: "tomato sauce, yellow cheese, smoked meat, sausage",
+      descriptionMk : "домат сос, кашкавал, суво месо, колбас",
       price: "280/340"
     },
     {
       id: 38,
       nameEn: "Cipola",
-      description: "qepë, spec djegës",
-      descriptionEn: "onion, hot pepper",
-      descriptionMk : "кромид, лута пиперка",
+      description: "sos domatesh, kačkaval, qepë, spec djegës",
+      descriptionEn: "tomato sauce, yellow cheese, onion, hot pepper",
+      descriptionMk : "домат сос, кашкавал, кромид, лута пиперка",
       price: "240/300"
     },
     {
       id: 39,
       nameEn: "Torino",
-      description: "suxhuk,qepë, ullinj",
-      descriptionEn: "sausage, onion, olives",
-      descriptionMk : "колбас, кромид, маслинки",
+      description: "sos domatesh, kačkaval, suxhuk,qepë, ullinj",
+      descriptionEn: "tomato sauce, yellow cheese, sausage, onion, olives",
+      descriptionMk : "домат сос, кашкавал, колбас, кромид, маслинки",
       price: "280/340"
     },
     {
       id: 40,
       nameEn: "Pepola",
-      description : "sallam, qepë, spec",
-      descriptionEn : "salami, onion, pepper",
-      descriptionMk : "салам, кромид, пиперка",
+      description : "sos domatesh, kačkaval, sallam, qepë, spec",
+      descriptionEn : "tomato sauce, yellow cheese, salami, onion, pepper",
+      descriptionMk : "домат сос, кашкавал, салам, кромид, пиперка",
       price: "280/340"
     },
     {
       id: 41,
       nameEn: "Proscioutto & Tuna",
-      description : "mish i thatë, tuna",
-      descriptionEn : "smoked meat, tuna",
-      descriptionMk : "суво месо, туна",
+      description : "sos domatesh, kačkaval, mish i thatë, tuna",
+      descriptionEn : "tomato sauce, yellow cheese, smoked meat, tuna",
+      descriptionMk : "домат сос, кашкавал, суво месо, туна",
       price: "300/360"
     },
     {
       id: 42,
       nameEn : "Olivina",
-      description : "ullinj,sheri,spec djegës,lëng hudre",
-      descriptionEn : "olives,cherry,hot pepper,garlic sauce",
-      descriptionMk : "маслинки, шери, лута пиперка, лук сос",
+      description : "sos domatesh, kačkaval, ullinj,sheri,spec djegës,lëng hudre",
+      descriptionEn : "tomato sauce, yellow cheese, olives,cherry,hot pepper,garlic sauce",
+      descriptionMk : "домат сос, кашкавал, маслинки, шери, лута пиперка, лук сос",
       price : "280/340"
     },
     {
       id : 43,
       nameEn : "Rustika",
-      description : "suxhuk, kërpudha",
-      descriptionEn : "sausage, mushrooms",
-      descriptionMk : "колбас, печурки",
+      description : "sos domatesh, kačkaval, suxhuk, kërpudha",
+      descriptionEn : "tomato sauce, yellow cheese, sausage, mushrooms",
+      descriptionMk : "домат сос, кашкавал, колбас, печурки",
       price : "280/340"
     },
     {
@@ -419,7 +419,7 @@ export const menuData = {
       id: 48,
       nameEn: "Seafood",
       name : "Fruta Deti / Морски плодови",
-      description: "sos domate, kačkaval, fruta deti",
+      description: "sos domatesh, kačkaval, fruta deti",
       descriptionEn: "tomato sauce, yellow cheese, seafood",
       descriptionMk : "домат сос, кашкавал, морски плодови",
       price: "350/400"
@@ -427,34 +427,34 @@ export const menuData = {
     {
       id: 49,
       nameEn: "Tunalina",
-      description: "tuna, sherri, ullinj",
-      descriptionEn: "tuna, cherry, olives",
-      descriptionMk : "туна, шери, маслинки",
+      description: "sos domatesh, kačkaval, tuna, sherri, ullinj",
+      descriptionEn: "tomato sauce, yellow cheese, tuna, cherry, olives",
+      descriptionMk : "домат сос, кашкавал, туна, шери, маслинки",
       price: "280/340"
     },
     {
       id: 50,
       nameEn: "Pulino",
-      description: "mish pule, sherri, spec djegës",
-      descriptionEn: "chicken meat, cherry, hot pepper",
-      descriptionMk : "пилешко месо, шери, лута пиперка",
+      description: "sos domatesh, kačkaval, mish pule, sherri, spec djegës",
+      descriptionEn: "tomato sauce, yellow cheese, chicken meat, cherry, hot pepper",
+      descriptionMk : "домат сос, кашкавал, пилешко месо, шери, лута пиперка",
       price: "280/340"
     },
     {
       id: 51,
       nameEn: "Spring",
       name : "Pranvera / Пролет",
-      description: "sherri, ullinj, djathë cope, spec jo djegës",
-      descriptionEn: "cherry, olives, cow cheese, mild pepper",
-      descriptionMk : "шери, маслинки, сирење, блага пиперка",
+      description: "sos domatesh, kačkaval, sherri, ullinj, djathë cope, spec jo djegës",
+      descriptionEn: "tomato sauce, yellow cheese, cherry, olives, cow cheese, mild pepper",
+      descriptionMk : "домат сос, кашкавал, шери, маслинки, сирење, блага пиперка",
       price: "280/340"
     },
     {
       id: 52,
       nameEn: "Chef",
-      description: "mish viçi, sherri, ullinj",
-      descriptionEn: "beef meat, cherry, olives",
-      descriptionMk : "говедско месо, шери, маслинки",
+      description: "sos domatesh, kačkaval, mish viçi, sherri, ullinj",
+      descriptionEn: "tomato sauce, yellow cheese, beef meat, cherry, olives",
+      descriptionMk : "домат сос, кашкавал, говедско месо, шери, маслинки",
       price: "350/400"
     }
   ],

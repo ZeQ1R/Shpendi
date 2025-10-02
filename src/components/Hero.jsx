@@ -32,11 +32,11 @@ const Hero = () => {
           
           {/* Main heading */}
             <div className="space-y-4">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight">
                 <span className="block bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
                 {t("restaurantInfo.name")}
                 </span>
-                <span className="block text-3xl sm:text-xl md:text-3xl lg:text-4xl font-light text-gray-300 mt-4">
+                <span className="block text-3xl sm:text-4xl md:text-3xl lg:text-4xl font-light text-gray-300 mt-4">
                 {t("restaurantInfo.tagline")}
                 </span>
             </h1>

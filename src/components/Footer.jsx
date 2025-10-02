@@ -158,7 +158,7 @@ const {t} = useTranslation();
               <span>© {currentYear} Shpendi Restaurant. All rights reserved.</span>
             </div>
             <div className='flex items-center space-x-2 text-gray-400 text-sm'>
-              <span>Produced by <span className='text-red-400'>Zeqir Xheladini</span></span>
+              <span>Produced by <span className='text-red-400'><a href="https://www.linkedin.com/in/zeqirxheladini/" target='_blank'>Zeqir Xheladini</a></span></span>
             </div>
             <div className="flex items-center space-x-2 text-gray-400 text-sm">
               <span>{t("footer.paragraph")}</span>

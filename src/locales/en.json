@@ -8,8 +8,8 @@
   },
   "restaurantInfo": {
     "name": "Shpendi",
-    "tagline": "Authentic Albanian Cuisine",
-    "description": "Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. From traditional grilled meats to homemade pasta, every meal tells a story of heritage and flavor.",
+    "tagline": "Unique Italian Taste",
+    "description": "Experience the magic of Italian cuisine with recipes that combine tradition and elegance. Each dish is prepared with fresh, high-quality ingredients, from pasta, meat, salads and pizzas.",
     "address": "Rr 402 , Zhelino, Tetovë, North Macedonia",
     "phone": "+389 70 505 909",
     "email": "shpendi2003@gmail.com",
@@ -20,7 +20,7 @@
       },
       "workingweekends" : {
         "weekends" : "Sun",
-        "weekendhours" : "01:00 PM - 11:00 PM"
+        "weekendhours" : "12:00 PM - 11:00 PM"
       }
       
     },
@@ -33,19 +33,20 @@
     "exploreMenu": "Explore Our Menu",
     "reservations": "Reservations",
     "location": "Location",
+    "phone": "Phone",
     "openingHours": "Opening Hours"
   },
   "about": {
     "title": "About Shpendi",
-    "description": "Welcome to Shpendi, where traditional Albanian cuisine meets modern dining excellence. Our restaurant has been serving authentic flavors and creating memorable experiences for food lovers who appreciate the rich culinary heritage of Albania.",
+    "description": "Welcome to Shpendi, where traditional Italian cuisine is combined with contemporary service. Our restaurant brings the true flavors of Italy and creates special experiences for all those who love Italian cuisine and its traditions.",
     "features": {
       "premium": {
         "title": "Premium Quality",
-        "description": "We use only the finest ingredients sourced locally and internationally to create authentic Albanian flavors."
+        "description": "Fresh and carefully selected ingredients for an authentic Italian taste in every dish."
       },
       "tradition": {
         "title": "Family Tradition",
-        "description": "Our recipes have been passed down through generations, preserving the authentic taste of Albanian cuisine."
+        "description": "Our recipes have been passed down through generations, preserving the authentic taste of Italian cuisine."
       },
       "love": {
         "title": "Made with Love",
@@ -59,8 +60,8 @@
     "story": {
       "title": "Our Story",
       "paragraphs": [
-        "Founded with a passion for sharing the authentic flavors of Albania, Shpendi represents more than just a restaurant – it's a celebration of culinary heritage and family traditions.",
-        "From our carefully grilled meats to our handcrafted pasta dishes, we invite you to experience the warmth and richness of Albanian hospitality in every bite.",
+        "Shpendi is more than a restaurant – it's a place that combines traditional and Italian cuisine.",
+        "With meticulously prepared recipes, from pastas, salads, meats to pizzas, we offer an unforgettable experience that embodies the warmth and elegance of our hospitality in every detail.",
         "Skerdilajd Llagami – SHPENDI was martyred on 29.06.2001. After two years, on 29.06.2003, Pizzeria SHPENDI was opened. The name and date are not just a memory, but a living symbol of remembrance and pride for his figure and sacrifice. This makes Pizzeria SHPENDI not only a place for food, but also a place of remembrance, honor and respect."
       ]
     },
@@ -73,7 +74,7 @@
   },
   "menuData": {
     "title": "Our Menu",
-    "description": "Discover our menu filled with authentic Albanian dishes, carefully prepared with the freshest ingredients. From traditional specialties to modern culinary creations, each dish is a taste experience.",
+    "description": "Discover our rich menu of authentic Italian dishes, carefully prepared from the freshest and highest quality ingredients. From traditional Italian specialties to modern culinary creations, each dish offers a unique tasting experience that reflects the richness and sophistication of Italian cuisine.",
     "categories": {
       "salads": "Salads",
       "pasta": "Pasta",
@@ -460,7 +461,7 @@
     ],
       "cta" : {
         "header" : "Ready to Create Your Own Memorable Experience?",
-        "subheader" : "Join hundreds of satisfied customers who have made Shpendi their favorite dining destination. Book your table today and taste the difference authentic Albanian cuisine makes."
+        "subheader" : "Join hundreds of satisfied customers who have made Shpendi their favorite dining destination. Book your table today and taste the difference authentic Italian cuisine makes."
       },
       "stats" : {
         "rating": "Average Rating",
@@ -470,14 +471,14 @@
   },
   "contact" : {
       "header" : "Get in Touch",
-      "subheader": "Ready to experience authentic Albanian cuisine? Contact us for reservations or any inquiries.",
+      "subheader": "Ready to experience authentic Italian cuisine? Contact us for reservations or any inquiries.",
       "info" : "Contact Information",
       "address": "Rr 402 , Zhelino, Tetovo, North Macedonia",
       "follow" : "Follow Us"
     },
     "footer": {
-      "description" : "Experience the finest Albanian dining with our carefully crafted dishes made from the freshest ingredients. Every meal tells a story of heritage and flavor.",
-      "paragraph" : "Made with ❣️ from Albanian Cuisine",
+      "description" : "Experience the finest Italian dining with our carefully crafted dishes made from the freshest ingredients. Every meal tells a story of heritage and flavor.",
+      "paragraph" : "Made with ❣️ from Italian Cuisine",
     "quickLinks": {
       "title": "Quick Links",
       "home": "Home",

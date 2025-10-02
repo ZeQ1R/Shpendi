@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App min-h-screen bg-black text-white">
 
-      <Router basename='/Shpendi'>
+      <Router>
         <Routes>
           <Route path="/" element={
             <>
