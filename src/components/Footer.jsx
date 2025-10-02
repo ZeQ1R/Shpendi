@@ -3,6 +3,7 @@ import { Utensils, MapPin, Phone, Mail, Instagram, Facebook, Heart } from 'lucid
 import { restaurantInfo } from '../data/mock';
 import { useTranslation } from 'react-i18next';
 import LanguageDropdown from './LanguageDropdown';
+import logo from '../images/shpendi.png';
 
 
 const Footer = () => {
@@ -30,7 +31,7 @@ const {t} = useTranslation();
             <div className="flex items-center space-x-2 mb-6">
               <div className="bg-gradient-to-b from-black-600 to-black-500 p-2 rounded-full">
                 {/* <Utensils className="h-8 w-8 text-white" /> */}
-                <img src="src/images/shpendi.png" className='h-18 w-18' />
+                <img src={logo} className='h-18 w-18' />
               </div>
               <span className="text-3xl font-bold bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
                 Shpendi

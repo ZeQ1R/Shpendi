@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Utensils } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import logo from '../images/shpendi.png';
 
 
 
@@ -38,7 +39,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
             {/* <div className="bg-gradient-to-r from-black-500 to-black-500 p-2 rounded-full"> */}
               {/* <Utensils className="h-6 w-6 text-white" /> */}
-              <img src="src/images/shpendi.png" className='h-18 w-18 mt-1' onClick={() => scrollToSection('hero')}/>
+              <img src={logo} className='h-18 w-18 mt-1' onClick={() => scrollToSection('hero')}/>
             {/* </div> */}
             <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
               Shpendi
