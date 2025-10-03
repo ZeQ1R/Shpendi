@@ -98,7 +98,7 @@ const Testimonials = () => {
                 <div className="text-gray-400">{t("testimonials.stats.rating")}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-400 mb-2">500+</div>
+                <div className="text-3xl font-bold text-red-400 mb-2">200+</div>
                 <div className="text-gray-400">{t("testimonials.stats.reviews")}</div>
               </div>
               <div className="text-center">
