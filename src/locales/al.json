@@ -91,7 +91,7 @@
   {
     "id": 1,
     "name": "Sallatë Shpendi",
-    "description": "marule, lakër karrotë, domate, spec, qepë, veze, stek pule",
+    "description": "marulë, lakër karrotë, domate, spec, qepë, veze, stek pule",
     "price": "240",
     "featured": true
   },
@@ -122,37 +122,37 @@
   {
     "id": 6,
     "name": "Sallatë Tuna",
-    "description": "domate, kastravec, marule, djath, tuna",
+    "description": "domate, kastravec, marulë, djath, tuna",
     "price": "250"
   },
   {
     "id": 7,
     "name": "Sallatë Fshatit",
-    "description": "marule, djathë, domate, ullinj, spec",
+    "description": "marulë, djathë, domate, ullinj, spec",
     "price": "240"
   },
   {
     "id": 8,
     "name": "Sallatë e Përzier",
-    "description": "domate, djath, kastravec, marule, karrotë, lakër",
+    "description": "domate, djath, kastravec, marulë, karrotë, lakër",
     "price": "140"
   },
   {
     "id": 9,
     "name": "Sallatë Chef",
-    "description": "marule, qepë, domate, djath, mish viçi, ullinj",
+    "description": "marulë, qepë, domate, djath, mish viçi, ullinj",
     "price": "330"
   },
   {
     "id": 10,
-    "name": "Sallatë Pulë",
-    "description": "marule, aromë, domate, djathë, stek pulë",
+    "name": "Sallatë Pule",
+    "description": "marulë, aromë, domate, djathë, stek pulë",
     "price": "240"
   },
   {
     "id": 11,
     "name": "Sallatë Cezar",
-    "description": "marule, sherri, stek parmezan, sos majdonezi",
+    "description": "marulë, sherri, stek parmezan, sos majdonezi",
     "price": "240"
   },
   {
@@ -276,7 +276,7 @@
     {
       "id": 28,
       "name": "Suxhuk",
-      "description": "suxhuk (copë të djegësa)",
+      "description": "suxhuk (jo djegës)",
       "descriptionEn": "beef sujuk (non spicy)",
       "price": "280/340"
     },
