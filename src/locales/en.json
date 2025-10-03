@@ -433,9 +433,9 @@
   ]
   },
   "testimonials": {
-    "title": "What Our Customers Say",
+    "title": "Customer Testimonials",
     "verified" : "Verified Customer",
-    "description": "Hear from our satisfied customers about their dining experiences at Shpendi. We take pride in delivering exceptional food and service that keeps our guests coming back for more.",
+    "description": "What our customers say about us.",
     "reviews": [
       {
         "id": 1,
